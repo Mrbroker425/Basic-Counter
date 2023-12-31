@@ -1,0 +1,77 @@
+body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+   overflow: hidden;
+   background-image: url(pexels-jeswin-thomas-3380743.jpg);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul,li{
+    display: inline-flex;
+    margin: 120px;
+    margin-top: 3px;
+    font-size: 30px;
+    text-shadow: 1px 2px 1px;
+}
+.cover{
+    background-color: rgb(233, 237, 236);
+    height: 60px;
+    box-shadow: 1px 1px 1px;
+}
+li:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgb(237, 237, 238);
+    border-radius: 20px;
+    padding: 5px;
+}
+#Up:hover{
+    color: #15ff00;
+}
+#Down:hover{
+    color: #ff0000;
+}
+#Number:hover{
+    cursor: pointer;
+    color: #dc0a0a;
+}
+#Number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    font-size: 400px;
+    margin-left: 50px;
+    text-shadow: 0px 0px 0px;
+}
+#Up{
+    margin-top: -150px;
+    position: absolute;
+    margin-left: 120px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 6px 6px 6px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+}
+#Down{
+    margin-top: -150px;
+    position: absolute;
+    margin-left: 1050px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 6px 6px 6px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+}
